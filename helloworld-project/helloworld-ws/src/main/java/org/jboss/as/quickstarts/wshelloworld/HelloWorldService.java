@@ -27,6 +27,17 @@ import javax.jws.WebService;
  */
 
 @WebService(targetNamespace = "http://www.jboss.org/eap/quickstarts/wshelloworld/HelloWorld")
+
+i = -1
+
+public void sillyLoop( int i )
+{
+   while ( i != 0 )
+   {
+      i-- ;
+   }
+}
+
 public interface HelloWorldService {
 
     /**
